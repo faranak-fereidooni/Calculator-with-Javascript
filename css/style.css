@@ -9,7 +9,9 @@
   --border-primary-color: #eee;
   --border-secondary-color: #0429fc;
 }
-
+::selection {
+  background: transparent;
+}
 .container {
   margin: 4% auto;
   width: 500px;
